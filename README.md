@@ -5,6 +5,14 @@
  ## Project Title:
  Gmail Clone
 
+ ## Project Folder Name:client(Frontend code)
+
+ To run this code
+
+ > cd client
+
+ > npm start
+
  ## Project Description:
  Sketch the layout of your application 's interface,focusing on usability and user experience .Use CSS frameworks like Bootstrap for a responsive design that adapts to various screen sizes.
 
@@ -33,7 +41,7 @@
   You will also see any lint errors in the console.
 
 
-  #### Components:
+  ### Components:
   - ComposeMail.jsx
 
       In this file the compose dialog box feature is coded 
@@ -78,42 +86,45 @@
 
 
 ## Output Screenshot:
- - List of All Mail message.
+
+
+ ### List of All Mail message.
 
   ![Output Screenshots](./src/assets/AllMails.png)
 
 
-- List of sent message
+### List of sent message
   
   ![Output Screenshots](./src/assets/sent.png)
 
-- List of Starred message
+### List of Starred message
 
   
   ![Output Screenshots](./src/assets/starred.png)
 
-- List of drafts message
+###  List of drafts message
   
   ![Output Screenshots](./src/assets/Drafts.png)
 
-- List of bin message
+###  List of bin message
 
   ![Output Screenshots](./src/assets/Bin.png)
 
-- Inbox message 
+###  Inbox message 
 
   
   ![Output Screenshots](./src/assets/Inbox.png)
 
-- List of selected particular message
+###  List of selected particular message
 
   
   ![Output Screenshots](./src/assets/selectParticularOne.png)
-- List of selecting all message
+
+### List of selecting all message
   
   ![Output Screenshot](./src/assets/selectAll.png)
 
-- View message Body
+### View message Body
 
   
   ![Output Screenshots](./src/assets/viewmessage.png)
