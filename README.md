@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+## Description:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Design and develop an Application using the full-stack.
 
-## Available Scripts
+ ## Project Title:
+ Gmail Clone
 
-In the project directory, you can run:
+ ## Project Description:
+ Sketch the layout of your application 's interface,focusing on usability and user experience .Use CSS frameworks like Bootstrap for a responsive design that adapts to various screen sizes.
 
-### `npm start`
+ ## Tech Stacks:
+  -  Frount-end:Reactjs
+  - Back-end:Nodejs
+  - Database:MongoDB
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  ### Frontend Project Folder:Gmail-Clone-Client
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  #### Components:
+  - ComposeMail.jsx
 
-### `npm test`
+      In this file the compose dialog box feature is coded 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+      ![Output Screenshots](./src/assets/composeMail.png)
+  - Email.jsx
+  - Emails.jsx
+  - Header.jsx
+  - SideBar.jsx
+  - SideBarContent.jsx
+  - ViewEmai.jsx
+   
+   ### Components inside Folder:
+   #### Common
+ -ErrorComponent.jsx
+ - NoMails.jsx
+ - SuspenseLoader.jsx
 
-### `npm run build`
+ #### Config
+ - sidebar.config.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ In this file the sidebar content is created 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  ![Output Screenshots](./src/assets/sidebarcontent.png)
+ #### hooks
+ - useApi.jsx
+ #### pages
+ - Main.jsx
+ #### routes
+ - routes.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ In this file the routing has been done ,url routing
+ #### services
+ - api.js
+ - api.urls.js
 
-### `npm run eject`
+ In this file database method is created using function,sidebar content method and endpoint is created.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ ## App.js File
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ Overall code routes is navigate from this file
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Output Screenshot:
+ - List of All Mail message.
 
-## Learn More
+  ![Output Screenshots](./src/assets/AllMails.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- List of sent message
+  
+  ![Output Screenshots](./src/assets/sent.png)
 
-### Code Splitting
+- List of Starred message
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  
+  ![Output Screenshots](./src/assets/starred.png)
 
-### Analyzing the Bundle Size
+- List of drafts message
+  
+  ![Output Screenshots](./src/assets/Drafts.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- List of bin message
 
-### Making a Progressive Web App
+  ![Output Screenshots](./src/assets/Bin.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Inbox message 
 
-### Advanced Configuration
+  
+  ![Output Screenshots](./src/assets/Inbox.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- List of selected particular message
 
-### Deployment
+  
+  ![Output Screenshots](./src/assets/selectParticularOne.png)
+- List of selecting all message
+  
+  ![Output Screenshot](./src/assets/selectAll.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- View message Body
 
-### `npm run build` fails to minify
+  
+  ![Output Screenshots](./src/assets/viewmessage.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
