@@ -15,6 +15,24 @@
 
   ### Frontend Project Folder:Gmail-Clone-Client
 
+  ## Getting Started with Create React App
+   
+  This project was bootstrapped with `Create React App`
+
+  ## Run the code in the terminal
+
+  foldername > `npm start`
+
+
+  Runs the app in the development mode.
+
+  Open http://localhost:3000 to view it in browser
+
+  The page will reload if you make edits.
+
+  You will also see any lint errors in the console.
+
+
   #### Components:
   - ComposeMail.jsx
 
