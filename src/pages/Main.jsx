@@ -6,7 +6,7 @@ import SideBar from "../components/SideBar"
 import {Outlet} from 'react-router-dom';
 import SuspenseLoader from '../components/common/SuspenseLoader';
 import {Box} from '@mui/material';
-import Emails from '../components/Emails';
+
 
 const Main=()=>{
     const[openDrawer,setOpenDrawer]=useState(true);
