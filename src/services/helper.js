@@ -1,0 +1,1 @@
+export const BASE_URL="https://backend-gmail-clone-4.onrender.com"
