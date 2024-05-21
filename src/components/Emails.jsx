@@ -5,9 +5,9 @@ import useApi from '../hooks/useApi';
 import {Checkbox,Box,List} from '@mui/material';
 import {DeleteOutline} from '@mui/icons-material';
 import Email from'./Email';
-
-import NoMails from './common/NoMails';
-import {EMPTY_TABS} from "../constants/constant";
+ 
+//import NoMails from './common/NoMails';
+//import {EMPTY_TABS} from "../constants/constant";
 
 const Emails=()=>{
     const [selectedEmails,setselectedEmails]=useState([]);
@@ -70,15 +70,15 @@ const Emails=()=>{
           }
 
     </List>
-   
+    </Box>
 
-    {
-      getEmailsService?.response?.length===0 &&
-   <NoMails message={EMPTY_TABS[type]}/>
+    //{
+      //getEmailsService?.response?.length===0 &&
+   //<NoMails message={EMPTY_TABS[type]}/>
    
-    }
+   // }
    
-        </Box>
+        //</Box>
     )
 }
 
