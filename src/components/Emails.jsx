@@ -24,7 +24,7 @@ const Emails=()=>{
 
         getEmailsService.call({},type);
 
-    },[type,refreshScreen]);
+    },[type,refreshScreen,getEmailsService]);
 
     const selectAllEmails=(e)=>{
         if(e.target.checked){
