@@ -1,5 +1,5 @@
 
-/*import {Box,Typography,styled,Divider} from '@mui/material';
+import {Box,Typography,styled,Divider} from '@mui/material';
 
 const Component=styled(Box)({
       display:'flex',
@@ -25,4 +25,4 @@ const NoMails=({message})=>{
     )
 }
 export default NoMails;
-*/
+
