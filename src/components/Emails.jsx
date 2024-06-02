@@ -21,18 +21,19 @@ const Emails=()=>{
     const deleteEmailService=useApi(API_URLS.deleteEmail);
 
 
-    /*useEffect(()=>{
+    useEffect(()=>{
 
         getEmailsService.call({},type);
 
-    },[type,refreshScreen,getEmailsService]);
-    */
+    },[type.refreshScreen]);
+   
 
-    useEffect(() => {
+    /*useEffect(() => {
       
       getEmailsService.call({},type);
-      // Your code here
-    }, [type,refreshScreen],[getEmailsService]);
+      getEmailsService();
+    }, [type.refreshScreen,getEmailsService]);
+    */
 
     const selectAllEmails=(e)=>{
         if(e.target.checked){
